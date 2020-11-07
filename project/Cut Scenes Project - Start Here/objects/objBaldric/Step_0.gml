@@ -26,3 +26,11 @@ if(playerCanMove) {
 		walkSpeed = 3.5; //Return speed to normal
 	}
 }
+
+if (place_meeting(x + 5, y, objTreasureChest)) {
+	if (keyboard_check_pressed(vk_space) && !instance_exists(objCutSceneParent)) {
+		instance_create_layer(x, y, "objects", objCutSceneTreasureChest);
+		image_index = 0;
+		image_speed = 0;
+	}
+}
