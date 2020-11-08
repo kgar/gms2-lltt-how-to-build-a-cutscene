@@ -9,3 +9,4 @@ enum CutSceneStates {
 currentState = CutSceneStates.Active;
 
 playerCanMove = false;
+showLocation = false;

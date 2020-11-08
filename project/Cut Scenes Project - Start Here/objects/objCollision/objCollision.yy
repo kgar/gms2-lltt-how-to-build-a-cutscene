@@ -1,7 +1,10 @@
 {
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
+  "spriteId": {
+    "name": "sprCollision",
+    "path": "sprites/sprCollision/sprCollision.yy",
+  },
+  "solid": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -17,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objCutSceneParent","path":"objects/objCutSceneParent/objCutSceneParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"objCutSceneParent","path":"objects/objCutSceneParent/objCutSceneParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objCutSceneParent",
+  "name": "objCollision",
   "tags": [],
   "resourceType": "GMObject",
 }

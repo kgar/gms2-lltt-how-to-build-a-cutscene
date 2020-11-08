@@ -4,3 +4,6 @@ walkSpeed = 3.5; //The variable controlling how quickly the player walks
 collisionSpeed = 4;
 globalvar playerCanMove;
 playerCanMove = true;
+
+currentHealth = 10;
+maxHealth = 10;

@@ -1,7 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"objElectricAttack","path":"objects/objElectricAttack/objElectricAttack.yy",},"order":7,},
     {"id":{"name":"sprBaldricWalkLeft","path":"sprites/sprBaldricWalkLeft/sprBaldricWalkLeft.yy",},"order":0,},
+    {"id":{"name":"objDialogueBox","path":"objects/objDialogueBox/objDialogueBox.yy",},"order":5,},
     {"id":{"name":"sprBaldricWalkUp","path":"sprites/sprBaldricWalkUp/sprBaldricWalkUp.yy",},"order":1,},
+    {"id":{"name":"sndElectricity","path":"sounds/sndElectricity/sndElectricity.yy",},"order":2,},
     {"id":{"name":"sprBaldricWalkRight","path":"sprites/sprBaldricWalkRight/sprBaldricWalkRight.yy",},"order":2,},
     {"id":{"name":"sprBaldricWalkDown","path":"sprites/sprBaldricWalkDown/sprBaldricWalkDown.yy",},"order":3,},
     {"id":{"name":"sprBaldricSurprise","path":"sprites/sprBaldricSurprise/sprBaldricSurprise.yy",},"order":4,},
@@ -16,11 +19,14 @@
     {"id":{"name":"sprSaraWizardChanting","path":"sprites/sprSaraWizardChanting/sprSaraWizardChanting.yy",},"order":4,},
     {"id":{"name":"sprSaraWizardCasting","path":"sprites/sprSaraWizardCasting/sprSaraWizardCasting.yy",},"order":5,},
     {"id":{"name":"objCutSceneParent","path":"objects/objCutSceneParent/objCutSceneParent.yy",},"order":2,},
+    {"id":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"order":6,},
     {"id":{"name":"bgHouse","path":"sprites/bgHouse/bgHouse.yy",},"order":0,},
     {"id":{"name":"objCutSceneTreasureChest","path":"objects/objCutSceneTreasureChest/objCutSceneTreasureChest.yy",},"order":3,},
+    {"id":{"name":"room1","path":"rooms/room1/room1.yy",},"order":1,},
     {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},"order":1,},
     {"id":{"name":"sprDialogueBox","path":"sprites/sprDialogueBox/sprDialogueBox.yy",},"order":2,},
     {"id":{"name":"sprElectricAttack","path":"sprites/sprElectricAttack/sprElectricAttack.yy",},"order":3,},
+    {"id":{"name":"sndFaceSlap","path":"sounds/sndFaceSlap/sndFaceSlap.yy",},"order":1,},
     {"id":{"name":"objBaldric","path":"objects/objBaldric/objBaldric.yy",},"order":0,},
     {"id":{"name":"objSara","path":"objects/objSara/objSara.yy",},"order":1,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
@@ -40,6 +46,7 @@
   },
   "RoomOrder": [
     {"name":"room0","path":"rooms/room0/room0.yy",},
+    {"name":"room1","path":"rooms/room1/room1.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
