@@ -1,0 +1,11 @@
+# To Do
+- Recreate the cutscene up to the point where it goes beyond FC's cutscene system's capabilities, as an array of arrays of simple script calls and their args; make up the scripts as you go
+- Create new cutscene obj
+- Implement each script in the sample array
+- Implement a cutscene management lifecycle that calls the current script until it's time to increment to the next index, FC fashion
+- Confirm this simple subset of the cutscene works without issue, and finish it with a restart game request
+- Expand handling to account for conditional paths and implement living and dying paths
+  - If the QTE is too difficult to reason about, save it for later and just hardcode a value 
+- Rework into a structs-based approach
+- Integrate in the dialogue system and replace steps with dialogue with the dialogue system
+- 
